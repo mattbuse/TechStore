@@ -1,0 +1,196 @@
+#root {
+  margin: 0 auto;
+  padding: 0rem 2rem 2rem 2rem;
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(to right, black, rgb(53, 53, 53), black);
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #581c8c;
+  padding: 20px;
+}
+
+.home-link {
+  font-size: 2.5rem;
+  font-family: 'Crimson Text', serif;
+  margin-left: 35px;
+  text-decoration: none;
+}
+
+.home-link:hover {
+  color: white;
+}
+
+.nav-links {
+  font-size: 32px;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+.shop-link {
+  margin: 25px;
+  text-decoration: none;
+  font-weight: 900;
+  font-family: 'Crimson Text', serif;
+}
+
+.shop-title {
+  font-family: 'dancing script', cursive;
+  font-size: 3rem;  
+}
+
+.cart-link {
+  margin: 35px;
+}
+
+.shop-home {
+  font-size: 4rem;
+  font-family: 'dancing script', cursive;
+}
+
+.sale-text {
+  font-size: 2rem;
+  font-family: 'dancing script', cursive;
+}
+
+.all-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  padding: 50px;
+  width: 350px;
+  font-size: 1.25rem;
+  border-radius: 25px;
+  margin: 50px;
+  box-shadow: 0px 3px 25px black;
+  background: rgb(34, 34, 34);
+}
+
+.product p {
+  text-align: center;
+}
+
+.shop-product-image {
+  max-height: 200px;
+}
+
+.shop-add-to-cart {
+  height: 28px;
+  width: 140px;
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+.shop-add-to-cart:hover {
+  background-color: #581c8c49;
+  color: white;
+}
+
+
+@media only screen and (max-width: 1400px) {
+  .home-link {
+    margin-left: 0px;
+  }
+  
+  .navbar {
+    display: block;
+  }
+
+  .store-name {
+    padding: 20px;  
+  }
+  
+}
+
+@media only screen and (max-width: 1000px) {
+  .home-link {
+    display: none;
+  }
+  
+  .store-name {
+    font-size: 1.75rem;
+  }
+  
+  .shop-link {
+    margin: 20px;
+  }
+  
+}
+
+@media only screen and (max-width: 800px) {
+  .shop-home {
+    font-size: 3rem;
+  }
+
+  .shop-title {
+    font-size: 2rem;
+  }
+
+  .cart-title {
+    margin: 45px;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    justify-content: center;
+    padding: 0px;
+  }
+
+  .store-name {
+    font-size: 1.5rem;
+    margin-left: 15px;
+  }
+
+  .shop-home {
+    font-size: 2.25rem;
+  }
+
+  .shop-title {
+    font-size: 1.75rem;
+  }
+
+  .shop-link {
+    margin: 10px;
+  }
+
+  .cart-link {
+    margin-right: 15px;
+  }
+
+  .product {
+    padding: 20px;
+    width: 240px;
+    font-size: 1rem;
+    border-radius: 15px;
+    margin: 35px;
+    box-shadow: 0px 3px 25px black;
+  }
+
+  .shop-product-image {
+    max-height: 160px;
+  }
+
+  .shop-title {
+    margin: 45px;
+  }
+
+  .shop-add-to-cart {
+    width: 120px;
+  }
+
+}

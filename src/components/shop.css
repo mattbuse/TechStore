@@ -1,0 +1,44 @@
+
+.shop-title {
+    padding: 10px;
+    font-size: 3rem;
+  }
+  
+.all-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.product {
+    padding: 30px;
+    width: 350px;
+    font-size: 1.25rem;
+}
+
+.product-wishlist {
+  margin-right: 15px;
+}
+
+.product-wishlist:hover {
+  cursor: pointer;
+}
+
+.shop-product-image {
+    max-height: 300px;
+}
+  
+.shop-add-to-cart {
+    height: 28px;
+    width: 140px;
+    border-radius: 15px;
+    font-weight: 600;
+}
+  
+.shop-add-to-cart:hover {
+    background-color: #581c8c;
+    color: white;
+    cursor: pointer;
+}
+  
+  
