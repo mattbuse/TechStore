@@ -23,7 +23,7 @@ function App() {
         <Router>
           <NavBar />
             <Routes>
-              <Route path='/TechStore' element={<Shop />} />
+              <Route path='/' element={<Shop />} />
               <Route path='/phones' element={<Phones />} />
               <Route path='/laptops' element={<Laptops />} />
               <Route path='/tablets' element={<Tablets />} />
