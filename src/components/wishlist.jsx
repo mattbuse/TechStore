@@ -22,7 +22,7 @@ export const Wishlist = () => {
                         return <WishlistItem key={product.id} data={product} />}
                     })}
             </div>
-            <button className="continue-button"><Link to='/'>Continue Shopping</Link></button>
+            <button className="continue-button"><Link to='/TechStore'>Continue Shopping</Link></button>
         </div>
     )
 }

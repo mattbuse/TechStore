@@ -8,7 +8,7 @@ export const NavBar = () => {
         <div>
             <div className="navbar">
                 <div className="store-name">
-                    <Link to='/' className="home-link">One Stop Tech Shop</Link>
+                    <Link to='/TechStore' className="home-link">One Stop Tech Shop</Link>
                 </div>
                 <div className="nav-links">
                     <Link to='/phones' className="shop-link" title="Phones" ><DeviceMobile className="phone-icon" /></Link>

@@ -30,7 +30,7 @@ export const Cart = () => {
                 </div> :
                 (<div>
                     <p className="empty">There are no items in your cart!</p>
-                    <button className="continue-button"><Link to='/'>Continue Shopping</Link></button>
+                    <button className="continue-button"><Link to='/TechStore'>Continue Shopping</Link></button>
                 </div>)}
         </div>
     )
